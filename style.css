@@ -103,7 +103,6 @@ img.active {
 }
 
 .table-container {
-    display: flex;
     justify-content: space-between;
     max-width: 100%;
     overflow-x: auto;
@@ -122,15 +121,5 @@ img.active {
     .animal-details {
         margin-right: 0; 
         margin-bottom: 10px; 
-    }
-    .nama {
-        flex-direction: column; 
-    }
-
-    .nama button {
-        flex: 0 0 auto; 
-        width: auto; 
-        margin: 5px 0; 
-        text-align: center; 
     }
 }
